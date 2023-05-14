@@ -21,19 +21,19 @@ This is a Jupyter Notebook that allows you to download Spotify music using Googl
 ## How to use
 
 1. Open the notebook in Google Colab by clicking this link: https://colab.research.google.com/github/asurpbs/GoogleColab_Spotify-Music-Downloader/blob/main/Spotify_Music_Downloader.ipynb
-2. Run the first cell to install the required packages.
-3. Run the second cell to mount your Google Drive. You will need to authorize the access and copy the verification code.
-4. Run the third cell to create a folder named "Spotify Music" in your Google Drive where the downloaded music will be saved.
-5. Run the fourth cell to enter the Spotify URL of the song, album, or playlist that you want to download. You can also enter multiple URLs separated by commas.
-6. Run the fifth cell to start the downloading process. You can monitor the progress and any errors in the output.
-7. Once the downloading is finished, you can find your music files in the "Spotify Music" folder in your Google Drive.
+2. Run the first cell to prevent from timeouts in google colab.
+3. Run the second cell to install the required packages & mount your Google Drive. You will need to authorize the access and copy the verification code.
+4. Run the fourth cell to enter the Spotify URL of the song, album, or playlist that you want to download. You can also enter multiple URLs separated by commas.
+5. After that start the downloading process. You can monitor the progress and any errors in the output.
+6. Once the downloading is finished, you can find your music files in the "Downloads" folder in your Google Drive.
 
 ## Features
 
-- Download Spotify music in MP3 format using Google Colab
+- Download Spotify music in MP3, FLAC, OGG, M4A, OPUS & WAV format using Google Colab
+- You can choose your preferred birtate.
+- Can generate lrc file & can added synced lyrics.
 - Download songs, albums, or playlists from Spotify
 - Save music files to Google Drive
-- Use spotdl and youtube-dl packages for downloading
 
 ## License
 
